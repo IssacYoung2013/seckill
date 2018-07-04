@@ -1,0 +1,19 @@
+package issac.seckill.exception;
+
+/**
+ *
+ * author:  ywy
+ * date:  2018-07-04
+ * desc: 秒杀关闭异常
+ *
+ */
+public class SeckillCloseException extends SeckillException {
+
+    public SeckillCloseException(String message) {
+        super(message);
+    }
+
+    public SeckillCloseException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}
