@@ -1,5 +1,6 @@
 package issac.seckill.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -9,7 +10,7 @@ import java.util.Date;
  * desc:
  *
  */
-public class Seckill {
+public class Seckill implements Serializable{
     private long seckillId;
 
     private String name;
